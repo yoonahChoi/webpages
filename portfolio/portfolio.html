@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>Portfolio</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="header">포트폴리오</h1>
+        </header>
+        <div class="container">
+            <nav>
+                <ul class="nav">
+                    <li class="nav_li"><a href="#tableElement" class="an_a">테이블 요소</a></li>
+                    <li class="nav_li"><a href="#formElement" class="an_a">폼 요소</a></li>
+                    <li class="nav_li"><a href="#listElement" class="an_a">리스트 요소</a></li>
+                <ul>
+            </nav>
+            <section>
+                <h2 class="title_heading">구성 요소</h2>
+                <div id="tableElement" class="element">
+                    <h3 class="title">테이블 요소</h3>
+                        <div class="content">
+                            <table class="size_table">
+                                <caption class="Cap">아동 사이즈</caption>
+                                <colgroup>
+                                    <col span="2">
+                                    <col span="2">
+                                    <col span="2">
+                                    <col span="2">
+                                    <col>
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th colspan="2" class="size_th" scope="col">구분</th>
+                                        <th colspan="2" class="size_th" scope="col">Small</th>
+                                        <th colspan="2" class="size_th" scope="col">Medium</th>
+                                        <th colspan="2" class="size_th" scope="col">Large</th>
+                                        <th class="size_th" scope="col">X-Large</th> 
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th rowspan="3" class="size_th" scope="rowgroup">미국 남아<br>[Boys 2-7]</th>
+                                        <th class="size_th" scope="row">사이즈</th>
+                                        <td class="size_td">2T</td>
+                                        <td class="size_td">3T</td>
+                                        <td class="size_td">4T</td>
+                                        <td class="size_td">4</td>
+                                        <td class="size_td">5</td>
+                                        <td class="size_td">6</td>
+                                        <td class="size_td">7</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="size_th" scope="row">키</th>
+                                        <td class="size_td">84-91</td>
+                                        <td class="size_td">91-99</td>
+                                        <td class="size_td">91-99</td>
+                                        <td class="size_td">99-107</td>
+                                        <td class="size_td">107-114</td>
+                                        <td class="size_td">114-122</td>
+                                        <td class="size_td">122-130</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="size_th" scope="row">몸무게</th>
+                                        <td class="size_td">13-15</td>
+                                        <td class="size_td">14-15</td>
+                                        <td class="size_td">13-15</td>
+                                        <td class="size_td">14-15</td>
+                                        <td class="size_td">19-21</td>
+                                        <td class="size_td">20-23</td>
+                                        <td class="size_td">23-25</td>
+                                    </tr>
+                                    <tr>
+                                        <th rowspan="3" class="size_th" scope="rowgroup">미국 여아<br>[Girls 2-6X]</th>
+                                        <th class="size_th" scope="row">사이즈</th>
+                                        <td class="size_td">2T</td>
+                                        <td class="size_td">3T</td>
+                                        <td class="size_td">4T</td>
+                                        <td class="size_td">4</td>
+                                        <td class="size_td">5</td>
+                                        <td class="size_td">6</td>
+                                        <td class="size_td">6X</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="size_th" scope="row">키</th>
+                                        <td class="size_td">84-91</td>
+                                        <td class="size_td">91-99</td>
+                                        <td class="size_td">91-99</td>
+                                        <td class="size_td">99-107</td>
+                                        <td class="size_td">107-114</td>
+                                        <td class="size_td">114-122</td>
+                                        <td class="size_td">122-130</td>
+                                    </tr>
+                                    <tr>
+                                            <th class="size_th" scope="row">몸무게</th>
+                                            <td class="size_td">13-15</td>
+                                            <td class="size_td">14-15</td>
+                                            <td class="size_td">13-15</td>
+                                            <td class="size_td">14-15</td>
+                                            <td class="size_td">19-21</td>
+                                            <td class="size_td">20-23</td>
+                                            <td class="size_td">23-25</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="refun_table">
+                                <caption class="Cap">환불 가능 금액 조회</caption>
+                                <colgroup>
+                                    <col>
+                                    <col>
+                                    <col>
+                                    <col>
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th class="refun_th" scope="col">구분</th>
+                                        <th class="refun_th" scope="col">환불가능액</th>
+                                        <th class="refun_th" scope="col">수수료</th>
+                                        <th class="refun_th" scope="col">총 환불금액</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="refun_th" scope="row">게임 보상금액</th>
+                                        <td class="refun_td">100,000원</td>
+                                        <td class="refun_td">1,000원</td>
+                                        <td class="refun_td">99,000원</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="refun_th" scope="row">월정액제 보상금액</th>
+                                        <td class="refun_td">10,000원</td>
+                                        <td class="refun_td">5,000원</td>
+                                        <td class="refun_td">5,000원</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="refun_th" scope="row">코인</th>
+                                        <td class="refun_td">9,000원</td>
+                                        <td class="refun_td">500원</td>
+                                        <td class="refun_td">8,500원</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th class="refun_th" scope="row">총합계</th>
+                                        <td class="refun_td">119,000원</td>
+                                        <td class="refun_td">6,500원</td>
+                                        <td class="refun_td">112,500원</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                </div>
+                <div id="formElement" class="element">
+                    <h3 class="title">폼 요소</h3>
+                    <div class="content">
+                        <h4 class="form_title">회원가입</h4>
+                        <form class="form">
+                            <label for="userID" class="form_label">아이디</label>
+                            <input type="text" id="userID" class="input">
+                            <label for="userPW" class="form_label">비밀번호</label>
+                            <input type="password" id="userPW" class="input">
+                            <label for="userName" class="form_label">이름</label>
+                            <input type="text" id="userName" class="input">
+                            <label class="form_label">생년월일</label>
+                            <select name="year" class="select">
+                                <option>년도</option>
+                            </select>
+                            <select name="month" class="select">
+                                <option>월</option>
+                            </select>
+                            <select name="date" class="select">
+                                <option>일</option>
+                            </select>
+                            <label class="form_label">성별</label>
+                            <input type="radio" name="sex" id="man"><label for="man" class="label">남자</label>
+                            <input type="radio" name="sex" id="woman"><label for="woman" class="label">여자</label>
+                            <label for="email" class="form_label">이메일</label>
+                            <input type="email" id="email" placeholder="이메일 주소에 '@'를 포함해주세요." class="input">
+                            <label for="tel" class="form_label">휴대전화</label>
+                            <input type="tel" id="tel" placeholder="숫자만 입력해주세요." class="input_button">
+                            <button type="button" class="tel_btn">인증번호 받기</button>
+                            <label for="code"></label><input type="number" id="code" placeholder="인증번호를 입력해주세요." class="input">
+                            <label class="form_label">취미</label>
+                            <input type="checkbox" name="hobby" value="exercising" id="exercising"><label for="exercising" class="label">운동</label>
+                            <input type="checkbox" name="hobby" value="cooking" id="cooking"><label for="cooking" class="label">요리</label>
+                            <input type="checkbox" name="hobby" value="traveling" id="traveling"><label for="traveling" class="label">여행</label>
+                            <input type="checkbox" name="hobby" value="gaming" id="gaming"><label for="gaming" class="label">게임</label>
+                            <input type="checkbox" name="hobby" value="computing" id="computing"><label for="computing" class="label">컴퓨터</label>
+                            <input type="checkbox" name="hobby" value="listening" id="listening"><label for="listening" class="label">음악</label>
+                            <input type="checkbox" name="hobby" value="moving" id="moving"><label for="moving" class="label">영화</label>
+                            <input type="checkbox" name="hobby" value="reading" id="reading"><label for="reading" class="label">독서</label>
+                            <label for="hello" class="form_label">가입인사</label>
+                            <textarea id ="hello" name="hello" class="greeting"></textarea>
+                            <button type="submit" class="submit_btn">가입하기</button>
+                        </form>
+                    </div>
+                </div>
+                <div id="listElement" class="element">
+                    <h3 class="title">리스트 요소</h3>
+                    <div class="content">
+                        <h4 class="list_title">'프로젝트' 사전 검색 결과</h4>
+                        <div class="section project">
+                            <h5 class="project_title">프로젝트</h5>
+                            <dl class="project_list">
+                                <dt class="dt_title">프로젝트 </dt><span class="dic">영양학사전</span>
+                                <dd class="dt_content">연구나 새로운 사업의 개발을 위한 유기적이고 조직적인 계획. 원자력 개발이나 우주개발 등은 대형 프로젝트를 조직하여 이루어진다. 일반적으로는 특정한 목표, 계획을 위한 학습활동, 실행계획 등을 가리킨다.</dd>
+
+                                <dt class="dt_title">프로젝트 </dt><span class="dic">Basic 중학생을 위한 기술, 가정 용어사전</span>
+                                <dd class="dt_content">어떤 특정한 목적 달성을 위하여 실시되는 시스템 개발, 프로그램 설계, 연구 개발 계획 혹은 건설 공사 등과 같이 한 번에 그치는 성격을 갖는 단위 작업이나 사업.</dd>
+                            <dl>
+                        </div>
+                        <h4 class="list_title">실시간 검색어</h4>
+                        <div class="section search">
+                            <ol class="search_list">
+                                <li><span class="order">1</span><a href="">입추</a></li>
+                                <li><span class="order">2</span><a href="">런닝맨 유재석</a></li>
+                                <li><span class="order">3</span><a href="">런닝맨</a></li>
+                                <li><span class="order">4</span><a href="">소나기</a></li>
+                                <li><span class="order">5</span><a href="">주간 날씨</a></li>
+                                <li><span class="order">6</span><a href="">깔라만시</a></li>
+                                <li><span class="order">7</span><a href="">내 아이디는 강남미인</a></li>
+                                <li><span class="order">8</span><a href="">차은우</a></li>
+                                <li><span class="order">9</span><a href="">한국사능력검정시험</a></li>
+                                <li><span class="order">10</span><a href="">맛있는 녀석들</a></li>
+                            </ol>
+                        </div>
+                        <h4 class="list_title">쿠키 이용안내</h4>
+                        <div class="section cookie">
+                            <ul class="cookie_list">
+                                <li><span>웹툰 작품</span>은 쿠키를 사용하여 대여/구매 하실 수 있습니다.</li>
+                                <li>쿠키 구매 시 지급되는 보너스 쿠키의 수량은 변경될 수 있으며, <span>유효기간은 지급 후 90일</span>입니다.</li>
+                                <li>구매 후 7일 이내, 사용하지 않은 쿠키 패키지는 <a href="">구매내역</a>에서 직접 구매 취소할 수 있습니다.</li>
+                                <li>일부 사용 후 잔여 쿠키에 대한 구매 취소는 고객센터를 통해 가능하며, 쿠키 구매 시 지급된 보너스 쿠키를 사용한 경우에는 해당 분량을 제외하고 환불됩니다.</li>
+                                <li>쿠키 구매 또는 사용 전 이용약관 동의가 필요합니다.<a href="" class="block">쿠키 이용약관</a></li>
+                            </ul>
+                        </div>
+                        <h4 class="list_title">뉴스</h4>
+                        <div class="section news">
+                            <ul class="news_list">
+                                <li>
+                                    <a href="" class="news_img"><img src="image/thumbnail1.jpg" alt="newsThum1"></a>
+                                    <a href="">[날씨] 내일도 35도 안팎 폭염・내륙 소나기⋯습도 높아 후텁지근</a>
+                                    <p>오늘은 입추 절기지만 가을은 아직 멀리있는 것 같습니다. 일부 내륙에는 소나기가 지났지만 소나기도 더위의 기세를 누그러뜨리진 못했는데요. 동해안을 제외한
+                                        전국 대부분 지방에 폭염 특보가 이어지는 가운데 내일도 한낮에 서울과 대전 35도, 광주와 대구가 36도까지 오를 것으로 예상됩니다. 내일도 대기가 불안정해지
+                                        면서 오후에 내륙에는 소나기가 지나는 곳이 있겠습니다.</p>
+                                </li>
+                                <li>
+                                    <a href="">[펫카드] 강아지 중성화가 필요한 이유</a>
+                                    <p>(서울=뉴스1) 최서윤 기자,방은영 디자이너 = 강아지 중성화 수술을 놓고 찬반이 팽팽하게 엇갈린다. 많은 사람들은 사람들과 공존하려면 개체수 조절을 위해 필요하다고 주장한
+                                        다. 그러나 어떤 사람들은 인위적인 수술은 안된다며 반대한다.</p>
+                                </li>
+                                <li>
+                                    <a href="" class="news_img"><img src="image/thumbnail1.jpg" alt="newsThum2"></a>
+                                    <a href="">다이어트에 좋은 여름 복숭아, 먹으면 안 되는 사람 있어</a>
+                                    <p>복숭아가 제철이다. 여름 복숭아는 다양한 건강 효과를 낸다. 복숭아에는 포도당, 과당, 수분이 풍부하고 유기산(산성을 띠는 물질로 식품에서 신맛을 냄)이 0.
+                                        5% 정도로 적게 들어 단맛이 강하다. 복숭아의 열량은 100g당 36kcal다. 복숭아 한 개에 약 100kcal 정도다. 포만감에 비해 열량이 적은 편이어서 다이어트를
+                                        하는 사람에게도 좋다. 비타민이 많아서 피로 해소에 도움이 된다.</p>
+                                </li>
+                            <ul>
+                        </div>
+                        <h4 class="list_title">웹툰</h4>
+                        <div class="section webtoon">
+                            <ul class="webtoon_list">
+                                <li>
+                                    <a href="">
+                                        <img src="image/thumbnail2.jpg" alt="webtThum1">
+                                        <p class="webtoon_title">하루 3컷</p>
+                                        <p>17화 편리하게 피곤하게</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="image/thumbnail2.jpg" alt="webtThum2">
+                                        <p class="webtoon_title"><span class="cuttoon">컷툰</span>유미의 세포들</p>
+                                        <p>326화 미래에서 온 텔레파시</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="image/thumbnail2.jpg" alt="webtThum3">
+                                        <p class="webtoon_title">이말년씨리즈 2018</p>
+                                        <p>58화 공포의 떡볶이</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                    <img src="image/thumbnail2.jpg" alt="webtThum4">
+                                    <p class="webtoon_title"><span class="smarttoon">스마트툰</span>덴마</p>
+                                    <p>195화 1.다이크(195)</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                    <img src="image/thumbnail2.jpg" alt="webtThum5">
+                                    <p class="webtoon_title"><span class="cuttoon">컷툰</span>1인용 기분</p>
+                                    <p>20화 평가</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                    <img src="image/thumbnail2.jpg" alt="webtThum6">
+                                    <p class="webtoon_title">찬란하지 않아도 괜찮아</p>
+                                    <p>56화 숨길 수 없어요.</p>
+                                    </a>
+                                </li>                             
+                            <ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <address class="address">주소: 경기도 성남시 분당구, E-MAIL: honggildong@naver.com</address>
+            <p class="footer_p">Copyright © Hong Gil Dong. All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>foodwith</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/foodwith.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="content_wrap">
+            <a href="#" class="logo_link">
+                <h1 class="logo"><span class="blind">foodwith</span></h1>
+            </a>
+            <nav class="nav">
+                <a href="#" class="gnb_menu"></a>
+                <!-- nav_open 클래스로 네비게이션 활성화 할 수 있습니다. -->
+                <ul class="nav_list">
+                    <li><a href="#" class="nav_link">About</a></li>
+                    <li><a href="#" class="nav_link">Work</a></li>
+                    <li><a href="#" class="nav_link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="info_section">
+        <div class="content_wrap info_border">
+            <h2 class="info_title">딸기 케이크</h2>
+            <!-- strong 태그를 사용하려다 중요내용은 아닌것 같아 b 태그를 사용했는데요 -->
+            <!-- 그냥 p태그에 font-weight 속성을 사용하는 것이 더 나은 방법인가요? -->
+            <ul class="info_list">
+                <li>
+                    <strong class="info_b">CHEF</strong>
+                    <p class="info_p">FULLMOON</p>
+                </li>
+                <li>
+                    <strong class="info_b">CATEGORY</strong>
+                    <p class="info_p">디저트</p>
+                </li>
+                <li>
+                    <strong class="info_b">DATE</strong>
+                    <p class="tahoma info_p">2018.02.02</p>
+                </li>
+                <li>
+                    <strong class="info_b">VIEW</strong>
+                    <p class="tahoma info_p">2,356</p>
+                </li>
+            </ul>
+        </div>
+        <div class="content_wrap">
+            <dl class="info_list">
+                <dt>음식정보</dt>
+                <dd>딸기를 주제료로 쓴 케이크 딸기를 토핑으로 쓰거나, 딸기를 갈아서 반죽에 넣은 케이크</dd>
+                <dd>
+                    <a href="https://terms.naver.com" target="_blank" class="terms_link">https://terms.naver.com</a>
+                </dd>
+                <dt>재료 및 분량</dt>
+                <dd>딸기, 밀가루 290g, 달걀 1개, 크림치즈 200g, 설탕 70g, 설탕 시럽, 셍크림 160g, 물 100ml</dd>
+                <dt>만드는 법</dt>
+                <dd>
+                    <ol class="making_list">
+                        <li>밀가루, 달걀, 물을 볼에 넣고 잘 섞어준다.</li>
+                        <li>냄비에 반죽을 넣고 약한 불에서 20분간 익혀준다. 잔열로 5분간 더 익혀준다. 다 익었으면 꺼낸 뒤 한 김 식힌다.</li>
+                        <li>크림치즈 200g을 부드럽게 풀고 설탱 70g을 넣고 섞는다.</li>
+                        <li>케이크 시트를 3등분하여 1개를 밑에 깔고 설탕시럽을 바른다.</li>
+                        <li>반으로 자른 딸기를 올려준 뒤, 만들었던 치즈크림을 딸기가 덮어질 정도로 채운다.</li>
+                        <li>다시 케이크 시트를 올리고 설탕 시럽을 바른다.</li>
+                        <li>시트 위에 생크림을 얇고 평평히 발라준 뒤 크림이 굳을 수 있게 냉장실에 3시간 정도 넣어준다.</li>
+                        <li>케이크가 굳었으면 딸기를 올려 장식해준다.</li>
+                    </ol>
+                </dd>
+            </dl>
+            <table class="cook_table">
+                <caption class="blind">요리 과정</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">가열시간</th>
+                        <th scope="col">조리과정</th>
+                        <th scope="col">불조절</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>재료준비</td>
+                        <td>밀가루, 계란, 물로 반죽 만들기</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>20min</td>
+                        <td>반죽 익히기</td>
+                        <td>약한불</td>
+                    </tr>
+                    <tr>
+                        <td>5min</td>
+                        <td>반죽 뜸들인 후 완성</td>
+                        <td>잔열</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="view_imgs">
+                <figure>
+                    <img src="image/strawberry_cake_material.jpg" alt="">
+                    <figcaption>[사진1] 밀가루, 달걀 및 재료</figcaption>
+                </figure>
+                <figure>
+                    <img src="image/strawberry_cake.jpg" alt="">
+                    <figcaption>[사진2] 딸기 케이크 완성</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <ul class="footer_list">
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">인재채용</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">고객센터</a></li>
+        </ul>
+        <p class="copyright">© <span class="bold">foodwith</span> All Right Reserved.</p>
+    </footer>
+</body>

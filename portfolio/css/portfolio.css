@@ -1,0 +1,374 @@
+﻿@charset "UTF-8";
+
+body,ul,ol,h1,h2,h3,h4,h5,h6,p,input,button {
+	margin: 0;
+	padding: 0;
+}
+body,input,button {
+	font-size: 12px;
+}
+a {
+	text-decoration: none;
+}
+dt{
+    display: inline;
+}
+/*reset css*/
+
+body,button,input,select,table,textarea{
+    font-family: '나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
+}
+header{
+    background-color: #000;
+    height: 120px;
+}
+.header{
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+}
+.container,.header{
+    margin: 0 auto;
+    padding: 40px;
+    width: 1000px;
+}
+.nav_li{
+    border: 1px solid #d1d1d1;
+    position: relative;
+    width: 322px;
+    height: 33px;
+    text-align: center;
+}
+ul .nav_li{
+    margin-right: -4px;
+}
+.nav_li + .nav_li{
+    margin-left: 14px;
+}
+.nav_li:hover{
+    border-color:#000;
+    font-weight: bold;
+}
+.an_a{
+    color: #000;
+    font-size: 16px;
+    width: 324px;
+    height: 35px;
+    text-decoration: none;
+    line-height: 32px;
+}
+.title_heading{
+    border-bottom: 1px solid #454545;
+    color: #000;
+    font-size: 20px;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+.title{
+    background-color: #f7f7f7;
+    border: 1px solid #d1d1d1;
+    color: #333;
+    font-size: 16px;
+    padding: 13px 15px;
+}
+.content{
+    border: 1px solid #d1d1d1;
+    border-top: 0px;
+    color: #000;
+    font-size: 12px;
+    padding: 30px;
+}
+.element{
+    padding-top: 30px;
+}
+.footer{
+    border-top: 1px solid #d1d1d1;
+    padding-top: 20px;
+    text-align: center;
+}
+.address{  
+    color: #999;
+    font-size: 12px;
+    font-style: normal;
+    padding: 10px;
+}
+.footer_p{
+    color: #000;
+    font-size: 12px;
+}
+.Cap{
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 15px;
+}
+.size_table col{
+    width: 150px;
+}
+.size_table, .size_th, .size_td{
+    border: 1px solid #e4e4e4;
+    background-color: #fbfbfb;
+    border-collapse: collapse;
+    color: #555;
+    height: 35px;
+}
+.size_table{
+    margin-bottom: 50px;
+}
+.refun_table, .refun_th, .refun_td{
+    background-color: #fbfbfb;
+    color: #555;
+    height: 35px;
+}
+.refun_table{
+    border-top: 2px solid #a5a5a5;
+    border-bottom: 1px solid #e4e4e4;
+    border-collapse: collapse;
+}
+.refun_table col{
+    width: 235px;
+}
+thead .refun_th{
+    border-bottom: 1px solid #e4e4e4;
+}
+thead .refun_th, tbody .refun_th{
+    font-weight: normal;
+}
+tfoot .refun_th, tfoot .refun_td{
+    font-weight: bold;
+    border-top: 1px solid #a5a5a5;
+}
+.refun_td{
+    text-align: right;
+}
+.size_th, .size_td{
+    text-align: center;
+}
+.form{
+    border: 1px solid #e4e4e4;
+    background-color: #fbfbfb;
+    padding: 20px;
+}
+.form > input, .form > select, .form > textarea{
+    background-color: white;
+}
+.form_title,.form_label{
+    font-size: 14px;
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.form_label{
+    font-weight: bold;
+}
+.input,.select,.label,.textarea{
+    font-size: 12px;
+    color: #000;
+}
+.label{
+    position: relative;
+    top: -2px;
+    margin-left: 5px;
+    margin-right: 64px;
+}
+.select{
+    width: 33%;
+    height: 35px;
+    margin-bottom: 5px;
+    border: inherit;
+    background-color: inherit;
+}
+.input{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
+    border: inherit;
+    background-color: inherit;
+    box-sizing: border-box;
+}
+.input_button{
+    width: 722px;
+    height: 35px;
+    margin-bottom: 5px;
+    border: inherit;
+    background-color: inherit;
+    box-sizing: border-box;
+}
+.tel_btn, .submit_btn{
+    border: 1px solid #08a600;
+    background-color: #4ec53d;
+    color: #fff;
+    cursor: pointer;
+}
+.tel_btn{
+    width: 170px;
+    height: 35px;
+}
+.submit_btn{
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+}
+.greeting{
+    border: inherit;
+    box-sizing: border-box;
+    background-color: inherit;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    margin-bottom: 15px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.list_title{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.section{
+    margin-bottom: 40px;
+}
+.project{
+    padding: 35px 20px;
+    border: 1px solid #e4e4e4;
+}
+.project_title{
+    text-align: center;
+    font-size: 32px;
+}
+.dt_title{
+    font-size: 14px;
+    font-weight: bold;
+}
+.dt_content{
+    line-height: 18px;
+    margin: 10px 0;
+}
+.dic{
+    font-weight: normal;
+    font-size: 12px;
+    color: #559bfa;
+}
+.search{
+    padding: 15px;
+    width: 25%;
+    border: 1px solid #e4e4e4;
+}
+.search_list{
+    list-style: none;
+}
+.search_list li{
+    margin: 10px 0;
+}
+.order{
+    border: 1px solid #e0e0e0;
+    line-height: 17px;
+    text-align: center;
+    font-size: 10px;
+    color: #666;
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+}
+.search_list a{
+    color: #000;
+    vertical-align: -1px;
+}
+.search_list a:hover{
+    text-decoration: underline;
+}
+.cookie{
+    border: 1px solid #e4e4e4;
+    padding: 20px 30px;
+}
+.cookie_list{
+    list-style: disc;
+}
+.cookie_list li{
+    margin-bottom: 12px;
+}
+.cookie_list a{
+    color: #559bfa;
+    text-decoration: underline;
+}
+.cookie_list > li:first-child{
+    font-weight: bold;
+}
+.cookie_list > li:first-child > span{
+    color: #559bfa;
+}
+.cookie_list > li + li > span {
+    color: #ec5336;
+}
+.news{
+    border: 1px solid #e4e4e4;
+    padding: 0 20px;
+}
+.news_list{
+    list-style: none;
+}
+.news_img{
+    float: left;
+    margin-right: 10px;
+}
+.news_list li{
+    clear: left;
+    line-height: 20px;
+    padding: 20px 0;
+}
+.news_list li > a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #00c;
+    text-decoration: underline;
+}
+.webtoon{
+    border: 1px solid #e4e4e4;
+    padding: 20px 0;
+}
+.webtoon_list{
+    list-style: none;
+}
+.webtoon_list a{
+    color: #000;
+}
+.webtoon_list a > p{
+    padding-top: 5px;
+    line-height: 14px;
+}
+.webtoon_list li {
+    margin: 0 -4px 20px 20px;
+}
+.webtoon_list li:hover{
+    text-decoration: underline;
+}
+.webtoon_title{
+    font-size: 14px;
+    font-weight: bold;
+}
+.cuttoon, .smarttoon{
+    text-align: center;
+    line-height: 13px;
+    font-size: 10px;
+    color: #fff;
+    height: 11px;
+    margin-right: 3px;
+}
+.cuttoon{
+    border: 1px solid #71b036;
+    background-color: #80c83d;
+    width: 25px;
+}
+.smarttoon{
+    border: 1px solid #df4e28;
+    background-color: #ec5336;
+    width: 50px;
+}
+.block, .form_label, .webtoon_list a{
+    display: block;
+}
+.nav_li,.an_a,.order,.webtoon_list li,.cuttoon,.smarttoon{
+    display: inline-block;
+}
